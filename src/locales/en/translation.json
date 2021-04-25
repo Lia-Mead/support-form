@@ -5,6 +5,7 @@
     "name": "Name",
     "email": "Email address",
     "Please select a topic": "Please select a topic",
+    "Topic": "Topic",
     "Version Number": "Version Number",
     "Description": "Description",
     "General Request": "General Request",
@@ -13,12 +14,15 @@
     "Submit": "Submit",
     "Your request could not be submitted": "Your request could not be submitted",
     "Please insert your phone number": "Please insert your phone number",
-    "Thank you for submitting the issue": "Thank you for submitting the issue",
+    "Thank you": "Thank you",
     "We will take care of it as soon as possible": "We will take care of it as soon as possible",
     "valid version format": "Please insert a valid version format: [digits].[digits].[digits]",
     "valid phone format": "Please insert a valid phone number",
     "In the meanwhile, check out our": "In the meanwhile, check out our",
     "website": "website",
     "for some inspiration": "for some inspiration",
-    "web-url": "https://www.factor-eleven.de/en_home-factor-eleven/"
+    "web-url": "https://www.factor-eleven.de/en_home-factor-eleven/",
+    "You submitted this email": "You submitted this email",
+    "Your description": "Your description",
+    "We will call you back at this number": "We will call you back at this number"
 }

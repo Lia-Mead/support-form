@@ -5,6 +5,7 @@
     "name": "Name",
     "email": "Emailadresse",
     "Please select a topic": "Bitte wählen Sie ein Topic",
+    "Topic": "Das Topic",
     "Version Number": "Versionsnummer",
     "Description": "Beschreibung",
     "General request": "Allgemeine Anfrage",
@@ -13,12 +14,15 @@
     "Submit": "Absenden",
     "Your request could not be submitted": "Ihre Anfrage konnte nicht übermittelt werden",
     "Please insert your phone number": "Bitte geben Sie Ihre Rufnummer ein",
-    "Thank you for submitting the issue": "Vielen Dank, dass Sie das Problem eingereicht haben",
+    "Thank you": "Vielen Dank",
     "We will take care of it as soon as possible": "Wir werden uns so schnell wie möglich darum kümmern",
     "valid version format": "Bitte geben Sie ein gültiges Versionsformat ein: [Ziffern].[Ziffern].[Ziffern]",
     "valid phone format": "Bitte geben Sie eine gültige Telefonnummer ein",
     "In the meanwhile, check out our": "In der Zwischenzeit können Sie sich auf unserer",
     "website": "Webseite",
     "for some inspiration": "inspirieren lassen",
-    "web-url": "https://www.factor-eleven.de/"
+    "web-url": "https://www.factor-eleven.de/",
+    "You submitted this email": "Sie haben diese Email mitgeteilt",
+    "Your description": "Ihre Beschreibung",
+    "We will call you back at this number": "Wir werden Sie unter dieser Nummer zurückrufen"
 }

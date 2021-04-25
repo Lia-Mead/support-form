@@ -3,20 +3,20 @@ import { useState } from "react";
 import { withNamespaces } from "react-i18next";
 
 const Form = ({ t, history }) => {
-    let [name, setName] = useState("");
-    let [email, setEmail] = useState("");
-    let [topic, setTopic] = useState([]);
-    let [description, setDescription] = useState("");
-    let [version, setVersion] = useState("");
-    let [phone, setPhone] = useState("");
-    let [error, setError] = useState(null);
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [topic, setTopic] = useState([]);
+    const [description, setDescription] = useState("");
+    const [version, setVersion] = useState("");
+    const [phone, setPhone] = useState("");
+    const [error, setError] = useState(null);
 
     // define inside function to allow for dynamic localization
-    let selectTopic = [
+    const selectTopic = [
         { key: 0, value: "", name: t("Please select a topic") },
-        { key: 1, value: "general", name: t("General request") },
-        { key: 2, value: "software", name: t("Software error") },
-        { key: 3, value: "callback", name: t("Callback") },
+        { key: 1, value: "General", name: t("General request") },
+        { key: 2, value: "Software", name: t("Software error") },
+        { key: 3, value: "Callback", name: t("Callback") },
     ];
 
     // verify correct version format
@@ -46,7 +46,11 @@ const Form = ({ t, history }) => {
     };
 
     const submitForm = (e) => {
-        history.push("/submitted-issue");
+        const location = {
+            pathname: "/submitted-issue",
+            state: { name, email, topic, description, version, phone },
+        };
+        history.push(location);
     };
 
     return (
@@ -91,7 +95,7 @@ const Form = ({ t, history }) => {
                     ))}
                 </select>
 
-                {topic === "software" && (
+                {topic === "Software" && (
                     <input
                         onChange={(e) => tryVersion(e.target.value)}
                         name="version"
@@ -103,7 +107,7 @@ const Form = ({ t, history }) => {
                     ></input>
                 )}
 
-                {topic === "callback" && (
+                {topic === "Callback" && (
                     <input
                         onChange={(e) => tryNumber(e.target.value)}
                         name="phone"

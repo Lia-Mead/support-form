@@ -48,6 +48,10 @@ body {
     margin: auto;
 }
 
+.eggplant {
+    color: #8a0349;
+}
+
 select {
     width: 370px;
     color: #000;
@@ -215,5 +219,23 @@ textarea {
 
     textarea {
         width: 80%;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input {
+        width: 80%;
+    }
+
+    select {
+        width: 86%;
+    }
+
+    .btn {
+        margin: 0;
     }
 }
